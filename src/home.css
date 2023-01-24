@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+/* *************************Header Section start***************************** */
+.header{
+    background-image: url(image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.header div.banner{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:8rem ;
+}
+.header div.banner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: -1;
+}
+.header div.banner h1{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.header div.banner p{
+    font-size: 2.7rem;
+}
+.header div.banner .btn{
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0.8rem 3.3rem;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    transition: all 0.3s linear;
+}
+.header div.banner .btn:hover{
+    background-color: #5FCF80;
+    border: 1px solid #5FCF80;
+}
+/* *********************Headre Section end********************************* */
+
+
+/* *************************Section 1 start******************************** */
+.section-1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5rem 8rem;
+}
+.section-1 .left{
+   width: 50%;
+   padding-right: 1rem;
+   font-size: 2rem;
+  }
+  .section-1 .left h2{
+    font-size: 2.3rem;
+   }
+.section-1 .left .first{
+    margin: 2rem 0rem;
+}
+.section-1 .left .last{
+    margin: 2rem 0rem;
+}
+.section-1 .left p span{
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #5FCF80;
+    color: #5FCF80;
+}
+  .section-1 .right{
+    width: 50%;
+   }
+   .section-1 .right img{
+    width: 100%;
+   }
+/* *************************Section 1 end*********************************** */

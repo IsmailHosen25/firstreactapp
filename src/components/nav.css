@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
 .main{
-    padding: 1.5rem 8rem;
+    padding: 1rem 8rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -13,10 +16,9 @@
     position: sticky;
     top:0px;
     left: 0px;
+    z-index: 99;
 }
-html{
-    font-size: 10px;
-}
+
 div .logo h2{
     font-size: 2.5rem;
     color:#5FCF80;
@@ -42,6 +44,7 @@ div > ul > li > ul{
     top: 100%;
     width: 150%;
     list-style: none;
+    overflow: hidden;
     background-color: #fff;
     z-index: 999;
     height: 0px;
@@ -83,7 +86,7 @@ div ul li button:hover{
 }
 @media screen and (max-width:1260px){
 .main{
- padding:2rem 3rem  ;
+ padding:2rem 8rem  ;
 }
 div > ul > li{
     padding: 0.5rem 1rem;
