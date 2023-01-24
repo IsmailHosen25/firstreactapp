@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main{
-    padding: 2rem 8rem;
+    padding: 1.5rem 8rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ div > ul{
     align-items: center;
     list-style: none;
 }
-div >ul #li10{
+div .manu-icon{
     font-size: 2.5rem;
     display: none;
 }
@@ -44,6 +44,15 @@ div > ul > li > ul{
     list-style: none;
     background-color: #fff;
     z-index: 999;
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+div > ul > li:hover ul{
+    height: auto;
+    visibility: visible;
+    opacity: 1;
 }
 div > ul > li > ul > li{
     padding: 1rem 0.3rem;
@@ -71,4 +80,36 @@ div ul li button{
 }
 div ul li button:hover{
  background-color: #32894c;
+}
+@media screen and (max-width:1260px){
+.main{
+ padding:2rem 3rem  ;
+}
+div > ul > li{
+    padding: 0.5rem 1rem;
+}
+div > ul > li a{
+    font-size: 1.8rem;
+}
+}
+@media screen and (max-width:1024px){
+    .main{
+        padding:1.5rem 8rem  ;
+       }
+    div ul{
+        display: none;
+    }
+    div .manu-icon{
+        display: inline;
+    }
+}
+@media screen and (max-width:768px){
+    .main{
+        padding:1.5rem 5rem  ;
+    }
+}
+@media screen and (max-width:480px){
+    .main{
+        padding:1.5rem 4rem  ;
+       }
 }

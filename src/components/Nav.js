@@ -25,8 +25,8 @@ Nav(props) {
             </li>
             <li><a href="###">{props.li8}</a></li>
             <li><button>{props.li9}</button></li>
-            <li id="li10"><i class="fa-solid fa-bars"></i></li>
         </ul>
+        <div className='manu-icon'><i class="fa-solid fa-bars"></i></div>
     </div>
   )
 }
