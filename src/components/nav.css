@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top:0px;
+    left: 0px;
+}
+html{
+    font-size: 10px;
+}
+div .logo h2{
+    font-size: 2.5rem;
+    color:#5FCF80;
+    font-weight: bolder;
+}
+div > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+div >ul #li10{
+    font-size: 2.5rem;
+    display: none;
+}
+div > ul > li{
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s linear;
+    position: relative;
+}
+div > ul > li > ul{
+    position: absolute;
+    top: 100%;
+    width: 150%;
+    list-style: none;
+    background-color: #fff;
+    z-index: 999;
+}
+div > ul > li > ul > li{
+    padding: 1rem 0.3rem;
+}
+div ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s linear;
+}
+div ul li a:hover{
+    color: #5FCF80;
+}
+div ul .act-color{
+    color: #5FCF80;
+}
+div ul li button{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #5FCF80;
+    border: none;
+    padding: 0.8rem 3rem;
+    border-radius: 25px;
+    transition: all 0.3s linear;
+}
+div ul li button:hover{
+ background-color: #32894c;
+}
