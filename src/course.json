@@ -1,0 +1,30 @@
+[
+    {
+        "CourseImg":"image/course-1.jpg",
+        "courseName":"Web Development",
+        "courseFees":"169$",
+        "courseHead":"Website Design",
+        "courseAbout":"Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+        "tutorImg":"image/trainer-1.jpg",
+        "tutorName":"Hasan"
+
+    },
+    {
+        "CourseImg":"image/course-2.jpg",
+        "courseName":"Marketing",
+        "courseFees":"285$",
+        "courseHead":"Search Engine Optimization v",
+        "courseAbout":"Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+        "tutorImg":"image/trainer-2.jpg",
+        "tutorName":"muzahid"
+    },
+    {
+        "CourseImg":"image/course-3.jpg",
+        "courseName":"Content",
+        "courseFees":"180$",
+        "courseHead":"Copywriting",
+        "courseAbout":"Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+        "tutorImg":"image/trainer-3.jpg",
+        "tutorName":"Rabiul"
+    }
+]

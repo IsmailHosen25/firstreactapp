@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.course{
+    width: 30%;
+}
+div.course .image{
+    width:100%;
+}
+div.course .image img{
+    width: 100%;
+} 
+div.course .course-about{
+    width: 100%;
+    padding: 1rem;
+}
+div.course .course-about .namefees{
+padding:1rem 0 ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 2rem;
+}
+div.course .course-about .namefees h3{
+    font-size: 2rem;
+    background-color: #5FCF80;
+    color: #fff;
+    padding: 0.5rem 2rem;
+}
+div.course .course-about .about{
+    font-size: 1.5rem;
+}
+div.course .course-about .about > p{
+    color: #818487;
+}
+div.course .course-about .about .teacher{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0.5rem;
+}
+div.course .course-about .about .teacher img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+}
