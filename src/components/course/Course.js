@@ -2,7 +2,7 @@ import React from 'react'
 import "./course.css";
 export default function Course(props) {
   return (
-    <div className='course'>
+    <div className='course'> 
         <div className='image'>
             <img src={props.courseimg}/>
         </div>

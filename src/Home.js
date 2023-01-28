@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from "./components/Nav"
+import Nav from "./components/nav/Nav"
 import "./home.css";
-import Courses from "./components/Course";
-import CourseData from "./course.json";
+import Courses from "./components/course/Maincourse";
+import Trainers from './components/trainers/Maintrainer';
 export default function Home() {
   return (
     <>
@@ -29,16 +29,8 @@ export default function Home() {
              <img src="image/about.jpg"/>
         </div>
     </div>
-    <div className='section-2'>
-      <div className='heading'>
-        <h3>COURSE</h3>
-        <h1>POPULAR COURSES</h1>
-      </div>
-      <div className='courses'>
-           
-          { CourseData.map((item,index) => <Courses key={index} courseimg={item.CourseImg} coursename={item.courseName} coursefees={item.courseFees} coursehead={item.courseHead} courseabout={item.courseAbout} tutorimg={item.tutorImg} tutorname={item.tutorName}/>)}
-      </div>
-    </div>
+   <Courses/>
+   <Trainers/>
      </>
   )
 }

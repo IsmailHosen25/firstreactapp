@@ -1,0 +1,20 @@
+[
+    {
+        "img" : "image/trainer-1.jpg",
+        "name":"Walter White",
+        "course":"Web Development",
+        "para":"Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut"
+    },
+    {
+        "img" : "image/trainer-2.jpg",
+        "name":"Walter White",
+        "course":"Web Development",
+        "para":"Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut"
+    },
+    {
+        "img" : "image/trainer-3.jpg",
+        "name":"Walter White",
+        "course":"Web Development",
+        "para":"Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut"
+    }
+]
