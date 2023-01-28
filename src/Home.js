@@ -26,7 +26,7 @@ export default function Home() {
             <p className='last'>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
         </div>
         <div className='right'>
-             <img src="image/hero-bg.jpg"/>
+             <img src="image/about.jpg"/>
         </div>
     </div>
     <div className='section-2'>

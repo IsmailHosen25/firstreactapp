@@ -49,3 +49,20 @@ div.course .course-about .about .teacher img{
     height: 6rem;
     border-radius: 50px;
 }
+
+@media screen and (max-width:1024px) {
+    .course{
+        width: 45%;
+    }
+    .course:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .course{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    
+}

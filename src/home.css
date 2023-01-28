@@ -64,8 +64,9 @@ html{
 .section-1{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 5rem 8rem;
+  flex-wrap: wrap;
 }
 .section-1 .left{
    width: 50%;
@@ -123,9 +124,41 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
 
 
 /* *************************Section 2 end*********************************** */
+
+/* ******************************Media Query*************************************** */
+@media screen and (max-width:1200px) {
+
+}
+@media screen and (max-width:1024px) {
+    .section-1{
+        flex-wrap: wrap-reverse;
+        gap:1rem;
+      }
+      .section-1 .left{
+        width: 100%;
+       }
+      .section-1 .right{
+        width: 100%;
+       }
+       .section-2 .courses{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:768px) {
+    .section-1{
+    padding:1.5rem 5rem  ;
+    }
+    .section-2{
+        padding: 1.5rem 4rem;
+    }
+}
+@media screen and (max-width:480px) {
+    
+}
